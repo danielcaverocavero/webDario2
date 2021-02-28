@@ -1,0 +1,5 @@
+La numeración va de la siguiente forma:
+
+Nº Fila + Orden de aparición en la misma fila
+
+Primero las verticales (4 columnas) y en la siguiente página las horizontales (2 columnas)
