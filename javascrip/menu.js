@@ -75,15 +75,32 @@ function init() {
 
     //ENLACES DE TODAS LAS REFERENCIAS. 
     function enlaces() {
+
+        switch (document.title) {
+            case "Dario | Inicio":
+                a2.href = "../index.html";
+                a3.href = "paginas/menu actores.html";
+                a4.href = "paginas/menu actoresRetratos.html";
+                a5.href = "paginas/menu modelos.html";
+                a6.href = "paginas/menu celebrities.html";
+                a7.href = "paginas/menu retando.html";
+                a8.href = "paginas/menu EntreTuYYo.html";
+                a9.href = "paginas/menu sobre mi.html";
+                break;
         
-        a2.href = "intro.html";
-        a3.href = "menu actores.html";
-        a4.href = "menu actoresRetratos.html";
-        a5.href = "menu modelos.html";
-        a6.href = "menu celebrities.html";
-        a7.href = "menu retando.html";
-        a8.href = "menu EntreTuYYo.html";
-        a9.href = "menu sobre mi.html";
+            default:
+                a2.href = "../index.html";
+                a3.href = "menu actores.html";
+                a4.href = "menu actoresRetratos.html";
+                a5.href = "menu modelos.html";
+                a6.href = "menu celebrities.html";
+                a7.href = "menu retando.html";
+                a8.href = "menu EntreTuYYo.html";
+                a9.href = "menu sobre mi.html";            
+                break;
+        }
+        
+        
     }
 
     //CREACION DEL NAV DEL MENU
