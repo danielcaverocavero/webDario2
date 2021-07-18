@@ -95,7 +95,7 @@ function init() {
                 a5.href = "menu modelos.html";
                 a6.href = "menu celebrities.html";
                 a7.href = "menu retando.html";
-                a8.href = "menu EntreTuYYo.html";
+                a8.href = "menu EntreTuyYo.html";
                 a9.href = "menu sobre mi.html";            
                 break;
         }
