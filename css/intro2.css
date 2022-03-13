@@ -31,8 +31,9 @@
   
   .interior1 {
     position: relative;
-    top: 50%;
-    left: 25%;;
+    top: 215px;
+    left: 25%;
+    bottom:0;
     width: 50%;
     height: 50%;    
     -webkit-transform: translate(-50%, -50%);
@@ -42,7 +43,7 @@
 
   .interior2 {
     position: relative;
-    top: -50%;
+    top: -215px;
     left: 75%;
     width: 50%;
     height: 50%;
