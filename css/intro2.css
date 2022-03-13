@@ -1,62 +1,54 @@
 .container {
-    position: relative;
-    width: 75%;
-    left: 15%;
-    margin-top: 10%;
-  }  
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height:0;
-    transition: .5s ease;
-  }
-  
-  .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
-  }
-  
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 1;
+}
+
   .interior1 {
-    position: relative;
-    top: 215px;
-    left: 25%;
-    bottom:0;
-    width: 50%;
-    height: 50%;    
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    width: 100%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);   
   }
 
-  .interior2 {
-    position: relative;
-    top: -215px;
-    left: 75%;
-    width: 50%;
-    height: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);   
-  }
-
+.actores{
+  margin: 0px;
+  width: 50%;
+}
+.modelos{
+  width: 50%;
+  margin: 0px;
+}
+.proyectos{
+  width: 33%;
+}
   @media screen and (max-width: 600px) and (orientation:landscape){
-  .container {
-    position: relative;
-    width: 55%;
-    left: 15%;
-    margin-top: 10%;    
-  }
+  
 }
