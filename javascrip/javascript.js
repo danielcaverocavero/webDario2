@@ -10,7 +10,8 @@ function init() {
   overlay = document.getElementById("myOverlay");
   overlay.addEventListener("click", w3_close);
   proyectos = document.getElementById("proyectos").addEventListener("click", myDropFunc);
-  retrato2 = document.getElementById("retratos").addEventListener("click", myDropFuncRetratos);
+  actores = document.getElementById("retratos").addEventListener("click", myDropFuncRetratos);
+  modelos = document.getElementById("modelo").addEventListener("click", myDropFunc1);
 
   //array de fotos y creador de evento en cada una
   let imagenes =document.getElementsByClassName("foto");
@@ -39,8 +40,9 @@ function init() {
   // Modal Image Gallery  
   document.getElementById("cerrar").addEventListener("click",cerrarVentana);
   
-  function onClick() {      
-    document.getElementById("img01").src = this.src;
+  function onClick() {
+    //seleccionamos solo la ruta de la foto a publicar
+    imagen = document.getElementById("img01").src = this.src;    
     document.getElementById("modal01").style.display = "block";
     var captionText = document.getElementById("caption");
     captionText.innerHTML = this.alt;
@@ -48,7 +50,8 @@ function init() {
       if (imagenes.item(index) == this){
         posicionInicial=index;
       }    
-    }      
+    }       
+          
   }
 
   //desplegable de proyectos
@@ -70,6 +73,21 @@ function init() {
   function myDropFuncRetratos() {
     var color = document.getElementById("retratos");
     var x = document.getElementById("demoDropRetratos");
+    if (x.className.indexOf("w3-show") == -1) {    
+      x.className += " w3-show";
+      x.previousElementSibling.className += "";
+      color.style.backgroundColor="#383838";
+      color.style.color="white";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+      x.previousElementSibling.className = 
+      x.previousElementSibling.className.replace("", "");
+      color.style.backgroundColor="black";
+    }
+  }
+  function myDropFunc1() {
+    var color = document.getElementById('modelo');
+    var x = document.getElementById("demoDrop1");
     if (x.className.indexOf("w3-show") == -1) {    
       x.className += " w3-show";
       x.previousElementSibling.className += "";

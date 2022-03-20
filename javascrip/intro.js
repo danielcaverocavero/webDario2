@@ -9,8 +9,10 @@ function init() {
   encoger.addEventListener("click", w3_close);
   overlay = document.getElementById("myOverlay");
   overlay.addEventListener("click", w3_close);
+  //event desplegables
   proyectos = document.getElementById("proyectos").addEventListener("click", myDropFunc);
-  retrato = document.getElementById("retratos").addEventListener("click", myDropFuncRetratos);
+  actores = document.getElementById("retratos").addEventListener("click", myDropFuncRetratos);
+  modelos = document.getElementById("modelo").addEventListener("click", myDropFunc1);
   
   
 
@@ -25,7 +27,8 @@ function init() {
   }
     
   
-  //desplegable de proyectos
+  //desplegable de proyectos, afecta a menu.css si se crean nuevas funciones de desplegables
+  // PROYECTOS
   function myDropFunc() {
     var color = document.getElementById('proyectos');
     var x = document.getElementById("demoDrop");
@@ -41,6 +44,7 @@ function init() {
       color.style.backgroundColor="black";
     }
   }
+  //ACTORES
   function myDropFuncRetratos() {
     var color = document.getElementById('retratos');
     var x = document.getElementById("demoDropRetratos");
@@ -56,7 +60,22 @@ function init() {
       color.style.backgroundColor="black";
     }
   }
- 
+  // MODELOS
+  function myDropFunc1() {
+    var color = document.getElementById('modelo');
+    var x = document.getElementById("demoDrop1");
+    if (x.className.indexOf("w3-show") == -1) {    
+      x.className += " w3-show";
+      x.previousElementSibling.className += "";
+      color.style.backgroundColor="#383838";
+      color.style.color="white";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+      x.previousElementSibling.className = 
+      x.previousElementSibling.className.replace("", "");
+      color.style.backgroundColor="black";
+    }
+  }
   
 
 };

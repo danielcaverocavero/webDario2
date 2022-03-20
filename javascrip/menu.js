@@ -4,20 +4,23 @@ function init() {
   
     var a1 = document.createElement("a"); // CERRAR
     var a2 = document.createElement("a"); // INICIO
-    var a3 = document.createElement("a"); // BOOKS
+    var a3 = document.createElement("a"); // BOOKS ACTORES
     var a4 = document.createElement("a"); // RETRATOS
     var a5 = document.createElement("a"); // MODELOS
     var a6 = document.createElement("a"); // CELEBRITIES
     var a7 = document.createElement("a"); // #RETANDOADARIO
     var a8 = document.createElement("a"); // ENTRE TU Y YO
-    var a9 = document.createElement("a"); // CONTACTO
+    var a9 = document.createElement("a"); // EQUIPO
     var a10 = document.createElement("a"); // PRIDE
-    var div1 =document.createElement("div"); // BLOQUE 1
+    var div1 =document.createElement("div"); // BLOQUE 1 ACTORES
     var div11 =document.createElement("div"); // BLOQUE BOOKS Y RETRATOS
-    var div2 =document.createElement("div"); // BLOQUE 2
-    var div21 =document.createElement("div"); // BLOQUE RETANDO Y ENTRE TU Y YO
-    var button1 = document.createElement("button"); //BOTON BLOQUE 1
-    var button2 = document.createElement("button"); // BOTON BLOQUE 2
+    var div2 =document.createElement("div"); // BLOQUE 2 PROYECTOS
+    var div21 =document.createElement("div"); // BLOQUE RETANDO, ENTRE TU Y YO + PRIDE
+    var div3 =document.createElement("div"); // BLOQUE 3 MODELOS
+    var div31 =document.createElement("div"); // BLOQUE BOOKS MODELOS Y CELEBRITIES
+    var button1 = document.createElement("button"); //BOTON BLOQUE 1 ACTORES
+    var button2 = document.createElement("button"); // BOTON BLOQUE 2 PROYECTOS
+    var button3 = document.createElement("button"); // BOTON BLOQUE 3 MODELOS
     var nav;
     
     // INICIA EL MENU Y SUS ELEMENTOS
@@ -48,7 +51,7 @@ function init() {
             a5.href="#";
             break;
     
-        case "Dario | Celebrities":
+        case "Dario | Celebrities":            
             a6.className +=" w3-dark-gray";
             a6.href="#";
             break;
@@ -65,7 +68,7 @@ function init() {
             div21.className=" w3-show";
             a8.href="#";
             break;
-        case "Dario | Contacto":
+        case "Dario | Equipo":
             a9.className +=" w3-dark-gray";            
             a9.href="#";
             break;
@@ -120,23 +123,33 @@ function init() {
 
     // CREACION DE LOS ELEMENTOS MENU EN EL NAV
     function crearMenu() {
-        crearNav();    
-        nav.appendChild(a1);
-        nav.appendChild(a2);
-        nav.appendChild(a10);
-        nav.appendChild(div1);
-        div1.appendChild(button1);
-        div1.appendChild(div11);
-        div11.appendChild(a3);
-        div11.appendChild(a4);
-        nav.appendChild(a5);
-        nav.appendChild(a6);
-        nav.appendChild(div2);        
-        div2.appendChild(button2);
-        div2.appendChild(div21);
-        div21.appendChild(a7);
-        div21.appendChild(a8);
-        nav.appendChild(a9);
+        crearNav(); 
+
+        nav.appendChild(a1); // CERRAR
+        nav.appendChild(a2); // INICIO  
+
+        nav.appendChild(div1); //  LISTA - BLOQUE ACTORES
+        div1.appendChild(button1); //BOTON BLOQUE 1 ACTORES
+        div1.appendChild(div11); // BLOQUE BOOK ACTORES Y RETRATOS ACTORES
+        div11.appendChild(a3); // BOOK ACTORES
+        div11.appendChild(a4); // RETRATOS ACTORES 
+
+        nav.appendChild(div3); // LISTA - BLOQUE MODELOS    
+        div3.appendChild(button3); // BOTON BLOQUE 3 MODELOS
+        div3.appendChild(div31); // BLOQUE BLOQUE BOOK MODELOS Y CELEBRITIES
+        div31.appendChild(a5);
+        div31.appendChild(a6);
+
+        
+        nav.appendChild(div2); // LISTA -BLOQUE PROYECTOS 
+        div2.appendChild(button2); // BOTON BLOQUE 2 PROYECTOS
+        div2.appendChild(div21); // BLOQUE RETANDO, ENTRE TU Y YO + PRIDE
+        div21.appendChild(a7); // RETANDODARIO
+        div21.appendChild(a8); // ENTRE TU Y YO
+        div21.appendChild(a10); // PRIDE
+
+        
+        nav.appendChild(a9); // EQUIPO 
         
 
     }
@@ -155,13 +168,14 @@ function init() {
 
         div1.className="w3-dropdown-click";
         div2.className="w3-dropdown-click";
+        div3.className="w3-dropdown-click";
 
         button1.className="w3-button w3-center";
         button1.id="retratos";  
         button1.innerHTML="ACTORES";
 
         div11.className="w3-dropdown-content w3-bar-block w3-card w3-animate-left";
-        div11.id="demoDropRetratos";
+        div11.id="demoDropRetratos"; // ver javascript.js y intro.js
 
         a3.href="menu actores.html";
         a3.className="w3-bar-item w3-button w3-right-align";        
@@ -173,22 +187,30 @@ function init() {
         a4.innerHTML="RETRATOS";
         a4.href="#";
         
-        a5.id="modelos"; a5.href="menu modelos.html";
-        a5.className="w3-bar-item w3-button w3-center w3-padding-16";
-        a5.innerHTML="MODELOS";
+        a5.id="modelos"; 
+        a5.className="w3-bar-item w3-button w3-right-align";
+        a5.innerHTML="BOOK";
         a5.href="#";
 
         a6.innerHTML="CELEBRITIES";
         a6.id="celebrities";
-        a6.className= "w3-bar-item w3-button w3-center w3-padding-16";
+        a6.className= "w3-bar-item w3-button w3-right-align";
         a6.href="#";
 
         button2.className="w3-button w3-center";
         button2.id="proyectos";
         button2.innerHTML="PROYECTOS";
 
-        div21.id ="demoDrop";
+        button3.className="w3-button w3-center";
+        button3.id="modelo";
+        button3.innerHTML="MODELOS";
+
+        div21.id ="demoDrop"; // ver javascript.js y intro.js
         div21.className="w3-dropdown-content w3-bar-block w3-card w3-animate-left";
+
+        div31.id ="demoDrop1"; // ver javascript.js y intro.js
+        div31.className="w3-dropdown-content w3-bar-block w3-card w3-animate-left";
+
 
         a7.innerHTML="#RETANDOADARIO";
         a7.className= "w3-bar-item w3-button w3-right-align";
@@ -198,14 +220,14 @@ function init() {
         a8.className= "w3-bar-item w3-button w3-right-align";
         a8.href="#";
 
-        a9.innerHTML="CONTACTO";
+        a9.innerHTML="EQUIPO";
         a9.href="#";
         a9.className="w3-bar-item w3-button w3-center w3-padding-16";
-        a9.id="contacto";    
+        a9.id="equipo";    
 
         a10.innerHTML="PRIDE";
         a10.href="#";
-        a10.className="w3-bar-item w3-button w3-center w3-padding-16";
+        a10.className="w3-bar-item w3-button w3-right-align";;
         a10.id="pride";
     }
 
