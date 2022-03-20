@@ -47,11 +47,15 @@ function init() {
             a4.href="#";
             break;
         case "Dario | Modelos":
+            button3.style="background-color: #383838; color: white;"
+            div31.className=" w3-show";
             a5.className +=" w3-dark-gray";            
             a5.href="#";
             break;
     
-        case "Dario | Celebrities":            
+        case "Dario | Celebrities":   
+            button3.style="background-color: #383838; color: white;"  
+            div31.className=" w3-show";
             a6.className +=" w3-dark-gray";
             a6.href="#";
             break;
@@ -73,6 +77,8 @@ function init() {
             a9.href="#";
             break;
         case "Dario | Pride":
+            button2.style="background-color: #383838; color: white;"
+            div21.className=" w3-show";
             a10.className +=" w3-dark-gray";            
             a10.href="#";
             break;
