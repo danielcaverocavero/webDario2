@@ -18,7 +18,7 @@ fotografia, comercial, proyecto, proyectos, niño, niña, chico, chicos, chica, 
 
 <link rel="stylesheet" href="css/menu.css">
 <link rel="stylesheet" href="css/intro.css">
-<link rel="stylesheet" href="css/intro2.css">
+<link rel="stylesheet" href="css/intro2.css">  
 
 <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
@@ -34,11 +34,15 @@ fotografia, comercial, proyecto, proyectos, niño, niña, chico, chicos, chica, 
 <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
 <link rel="manifest" href="../favicon/manifest.json">
+
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+
+<script src="javascrip/jquery-3.6.0.min.js"></script>
 <script src="javascrip/menu.js"></script>
 <script src="javascrip/intro.js"></script>
+<script src="javascrip/jquery.js"></script>
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -60,51 +64,36 @@ fotografia, comercial, proyecto, proyectos, niño, niña, chico, chicos, chica, 
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">DARIO CAVERO</span>
+  <span class="w3-left w3-padding">DARIO CAVERO STUDIO</span>
   <a id="menu" href="javascript:void(0)" class="w3-right w3-button w3-white">&#9776;<span class="w3-hide-small" > MENÚ</span></a>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-animate-opacity w3-overlay"  style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-animate-opacity w3-overlay"  style="cursor:pointer" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px;">
 
 
-  <div class="container ">
-    <img src="fotos/inicio2/1.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <div class="interior1 ">
-        <a href="paginas/menu actores.html"><img src="fotos/inicio2/1_1.jpg" alt=""  style="float: left;" class="actores"></a>
-        <a href="paginas/menu actoresRetratos.html"><img src="fotos/inicio2/1_2.jpg" alt="" style="float: left ;" class="actores" ></a>        
-      </div>      
-    </div>  
+  <div class="container1 ">
+    <img src="fotos/inicio2/1.jpg" alt="Avatar" class="image" id="imagenArriba">
+    
+      <a href="paginas/menu actores.html"><img src="fotos/inicio2/1_1.jpg" alt=""  style="float: left;" class="actores"></a>
+      <a href="paginas/menu actoresRetratos.html"><img src="fotos/inicio2/1_2.jpg" alt="" style="float: left ;" class="actores" ></a>     
+    
   </div>
 
-  <div class="container ">
-    <img src="fotos/inicio2/2.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <div class="interior1 ">
-        <a href="paginas/menu modelos.html"><img src="fotos/inicio2/2_1.jpg" alt=""  style="float: left;" class="modelos"></a>
-        <a href="paginas/menu celebrities.html"><img src="fotos/inicio2/2_2.jpg" alt="" style="float: left ;" class="modelos" ></a>        
-      </div>      
-    </div>  
-  </div>
-
-  <div class="container ">
-    <img src="fotos/inicio2/3.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-      <div class="interior1 ">
-        <a href="paginas/menu pride.html"><img src="fotos/inicio2/3_1_1.jpg" alt=""  style="float: left;" class="proyectos"></a>
-        <a href="paginas/menu retando.html"><img src="fotos/inicio2/3_2_1.jpg" alt="" style="float: left ;" class="proyectos" ></a>
-        <a href="paginas/menu EntreTuyYo.html"><img src="fotos/inicio2/3_3_1.jpg" alt="" style="float: left ;" class="proyectos" ></a>        
-      </div>      
-    </div>  
-  </div>
-  
-  <div class="container ">
-    <a href="paginas/menu sobre mi.html"><img src="fotos/inicio2/4.jpg" alt="Avatar" class="image"></a>        
-  </div>
+  <div class="container2">
+    <img src="fotos/inicio2/2.jpg" alt="Avatar" class="image2" id="imagenArriba2">      
+    <a href="paginas/menu actores.html"><img src="fotos/inicio2/2_1.jpg" alt=""  style="float: left;" class="modelos"></a>
+    <a href="paginas/menu actoresRetratos.html"><img src="fotos/inicio2/2_2.jpg" alt="" style="float: left ;" class="modelos" ></a>
+  </div>  
+    
+  <div class="container3">
+    <img src="fotos/inicio2/3.jpg" alt="Avatar" class="image3" id="imagenArriba3">      
+    <a href="paginas/menu actores.html"><img src="fotos/inicio2/3_1_1.jpg" alt=""  style="float: left;" class="proyectos"></a>
+    <a href="paginas/menu actoresRetratos.html"><img src="fotos/inicio2/3_2_1.jpg" alt="" style="float: left ;" class="proyectos" ></a>
+  </div>  
 
   
 </div>
