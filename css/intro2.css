@@ -1,42 +1,46 @@
-.image {  
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
   display: block;
   width: 100%;
   height: auto;
-  overflow: hidden;
-  
 }
-.image2 {
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
   overflow: hidden;
-  display: block;
   width: 100%;
-  height: auto;  
+  height:0;  
+  transition: 0.5s ease;
 }
-.image3 {
-  overflow: hidden;
-  display: block;
+.container:hover .overlay {
+  left: 0;
+  height: 100%;
+}
+.interior1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;    
   width: 100%;
-  height: auto; 
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);   
 }
 .actores{
-  position: relative;  
+  margin: 0px;
   width: 50%;
-  display: none;  
 }
 .modelos{
-  position: relative;
   width: 50%;
-  display: none;  
+  margin: 0px;
 }
 .proyectos{
-  position: relative;
- display: none;
-  width: 33%;  
-}
-#inicio {  
-  background-attachment: fixed;
-  background-image: url('../fotos/SobreMi/contacto2.jpg');  
-  background-position: top;
-  background-repeat: no-repeat;  
-  background-size:cover; 
-  height: max-content;  
-}
+  width: 33.33%;
+  margin: 0;
+} 
