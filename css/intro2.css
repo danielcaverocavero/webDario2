@@ -2,35 +2,35 @@
   position: relative;
   width: 100%;
 }
-
-.image {
+.image {  
   display: block;
   width: 100%;
   height: auto;
+  transition: transform .3s ease; 
+  transform: scaleY(1);
+  transform-origin:top;
+}
+
+.container:hover .image { 
+  transform: scaleY(0);
+  transform-origin:top;
+  width: 100%
 }
 .overlay {
   position: absolute;
   bottom: 0;
-  left: 100%;
+  left: 0;
   right: 0;
-  background-color: black;
   overflow: hidden;
-  width: 100%;
-  height:0;  
-  transition: 0.5s ease;
+  width: auto;
+  height: 100%;
+  transition: transform .3s ease;
+  transform: translateY(100%);
+  transform-origin: bottom;
 }
 .container:hover .overlay {
-  left: 0;
-  height: 100%;
-}
-.interior1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;    
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);   
+  transform: translateY(0%);
+  width: 100%
 }
 .actores{
   margin: 0px;
@@ -43,4 +43,7 @@
 .proyectos{
   width: 33.33%;
   margin: 0;
-} 
+}
+  @media screen and (max-width: 600px) and (orientation:landscape){
+  
+}
