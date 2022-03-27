@@ -1,36 +1,40 @@
-body,h1,h2,h3,h4,h5 {
-  font-family: "Raleway", sans-serif
-}
-body, html {
-  height: 100%;
-  width: auto;  
-}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+html {height: 100%; width: auto;}
+.w3-half img{margin-bottom: -6px; cursor: pointer}
+.w3-half img:hover{opacity: 1; transition: 0.3s}
+.w3-third img{margin-bottom: -6px; cursor: pointer}
+.w3-third img:hover{opacity: 0.6; transition: 0.3s}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.9; transition: 0.3s}
+
+#mySidebar {
+    z-index:3;width:250px;font-weight:bold;display:none;right:0;
+  }
 img {
   width: 100%;
 }
+.contenido{  
+  padding: 10px;
+  background-attachment: fixed; 
+  background-position: top;
+  background-repeat: no-repeat;  
+  background-size:cover; 
+  height: max-content;  
+  color:white;
+  text-align: justify;
+  text-justify: inter-word;
+}
+h1{
+  text-align: center;  
+}
+#botones{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
-div {
-  padding: 8px;
-  height:auto;
-}
-.contenedor {
-  position: relative; 
-  margin: 0 auto; /* Center it */    
-}
-.contenedor .contenido {
-  position: absolute; /* Position the background text */
-   /* At the bottom. Use top:0 to append it to the top */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */  
-  padding: 20px; /* Some padding */
-  top: 0;
-  height: 400px;
-  overflow: auto;
-}
-/* Centered text  no aplica*/
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  
+
+
