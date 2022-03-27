@@ -10,7 +10,7 @@ img {
 }
 
 div {
-  padding-top: 8px;
+  padding: 8px;
   height:auto;
 }
 .contenedor {
@@ -24,7 +24,7 @@ div {
   width: 100%; /* Full width */  
   padding: 20px; /* Some padding */
   top: 0;
-  height: 800px;
+  height: 400px;
   overflow: auto;
 }
 /* Centered text  no aplica*/
