@@ -12,6 +12,7 @@ function init() {
     var a8 = document.createElement("a"); // ENTRE TU Y YO
     var a9 = document.createElement("a"); // EQUIPO
     var a10 = document.createElement("a"); // PRIDE
+    var a11 = document.createElement("a"); // CONTACTOS
     var div1 =document.createElement("div"); // BLOQUE 1 ACTORES
     var div11 =document.createElement("div"); // BLOQUE BOOKS Y RETRATOS
     var div2 =document.createElement("div"); // BLOQUE 2 PROYECTOS
@@ -81,6 +82,11 @@ function init() {
             div21.className=" w3-show";
             a10.className +=" w3-dark-gray";            
             a10.href="#";
+            break;                    
+            
+        case "Dario | Contactos":            
+            a11.className +=" w3-dark-gray";            
+            a11.href="#";
             break;
             
         default:
@@ -100,7 +106,8 @@ function init() {
                 a7.href = "paginas/menu retando.html";
                 a8.href = "paginas/menu EntreTuyYo.html";
                 a9.href = "paginas/menu sobre mi.html";
-                a10.href = "paginas/menu pride.html";
+                a10.href ="paginas/menu pride.html";
+                a11.href ="paginas/menu contactos.html";
                 break;
         
             default:
@@ -112,7 +119,8 @@ function init() {
                 a7.href = "menu retando.html";
                 a8.href = "menu EntreTuyYo.html";
                 a9.href = "menu sobre mi.html";
-                a10.href ="menu pride.html";            
+                a10.href ="menu pride.html";
+                a11.href ="menu contactos.html";            
                 break;
         }
         
@@ -143,19 +151,21 @@ function init() {
         nav.appendChild(div3); // LISTA - BLOQUE MODELOS    
         div3.appendChild(button3); // BOTON BLOQUE 3 MODELOS
         div3.appendChild(div31); // BLOQUE BLOQUE BOOK MODELOS Y CELEBRITIES
-        div31.appendChild(a5);
-        div31.appendChild(a6);
+        div31.appendChild(a5); // MODELOS
+        div31.appendChild(a6); // CELEBRITIES
 
         
         nav.appendChild(div2); // LISTA -BLOQUE PROYECTOS 
         div2.appendChild(button2); // BOTON BLOQUE 2 PROYECTOS
         div2.appendChild(div21); // BLOQUE RETANDO, ENTRE TU Y YO + PRIDE
+        div21.appendChild(a10); // PRIDE
         div21.appendChild(a7); // RETANDODARIO
         div21.appendChild(a8); // ENTRE TU Y YO
-        div21.appendChild(a10); // PRIDE
+        
 
         
         nav.appendChild(a9); // EQUIPO 
+        nav.appendChild(a11); // CONTACTOS 
         
 
     }
@@ -229,12 +239,17 @@ function init() {
         a9.innerHTML="EQUIPO";
         a9.href="#";
         a9.className="w3-bar-item w3-button w3-center w3-padding-16";
-        a9.id="equipo";    
+        
 
         a10.innerHTML="PRIDE";
         a10.href="#";
         a10.className="w3-bar-item w3-button w3-right-align";;
-        a10.id="pride";
+        
+
+        a11.innerHTML="CONTACTOS";
+        a11.href="#";
+        a11.className="w3-bar-item w3-button w3-center w3-padding-16";
+        
     }
 
 
