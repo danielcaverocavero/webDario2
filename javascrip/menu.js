@@ -105,7 +105,7 @@ function init() {
                 a6.href = "paginas/menu celebrities.html";
                 a7.href = "paginas/menu retando.html";
                 a8.href = "paginas/menu EntreTuyYo.html";
-                a9.href = "paginas/menu sobre mi.html";
+                a9.href = "paginas/menu equipo.html";
                 a10.href ="paginas/menu pride.html";
                 a11.href ="paginas/menu contactos.html";
                 break;
@@ -118,7 +118,7 @@ function init() {
                 a6.href = "menu celebrities.html";
                 a7.href = "menu retando.html";
                 a8.href = "menu EntreTuyYo.html";
-                a9.href = "menu sobre mi.html";
+                a9.href = "menu equipo.html";
                 a10.href ="menu pride.html";
                 a11.href ="menu contactos.html";            
                 break;
