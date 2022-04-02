@@ -13,6 +13,7 @@ function init() {
     var a9 = document.createElement("a"); // EQUIPO
     var a10 = document.createElement("a"); // PRIDE
     var a11 = document.createElement("a"); // CONTACTOS
+    var a12 = document.createElement("a"); // RODAJES
     var div1 =document.createElement("div"); // BLOQUE 1 ACTORES
     var div11 =document.createElement("div"); // BLOQUE BOOKS Y RETRATOS
     var div2 =document.createElement("div"); // BLOQUE 2 PROYECTOS
@@ -47,6 +48,14 @@ function init() {
             div11.className=" w3-show";
             a4.href="#";
             break;
+        case "Dario | Rodajes":
+            button1.style="background-color: #383838; color: white;"
+            a12.className +=" w3-dark-gray";
+            div11.className=" w3-show";
+            a12.href="#";
+            break;
+
+
         case "Dario | Modelos":
             button3.style="background-color: #383838; color: white;"
             div31.className=" w3-show";
@@ -108,6 +117,7 @@ function init() {
                 a9.href = "paginas/menu equipo.html";
                 a10.href ="paginas/menu pride.html";
                 a11.href ="paginas/menu contactos.html";
+                a12.href ="paginas/menu rodaje.html";
                 break;
         
             default:
@@ -120,7 +130,8 @@ function init() {
                 a8.href = "menu EntreTuyYo.html";
                 a9.href = "menu equipo.html";
                 a10.href ="menu pride.html";
-                a11.href ="menu contactos.html";            
+                a11.href ="menu contactos.html"; 
+                a12.href ="menu rodaje.html";           
                 break;
         }
         
@@ -147,6 +158,7 @@ function init() {
         div1.appendChild(div11); // BLOQUE BOOK ACTORES Y RETRATOS ACTORES
         div11.appendChild(a3); // BOOK ACTORES
         div11.appendChild(a4); // RETRATOS ACTORES 
+        div11.appendChild(a12); // RODAJES
 
         nav.appendChild(div3); // LISTA - BLOQUE MODELOS    
         div3.appendChild(button3); // BOTON BLOQUE 3 MODELOS
@@ -193,25 +205,25 @@ function init() {
         div11.className="w3-dropdown-content w3-bar-block w3-card w3-animate-left";
         div11.id="demoDropRetratos"; // ver javascript.js y intro.js
 
-        a3.href="menu actores.html";
+        
         a3.className="w3-bar-item w3-button w3-right-align";        
         a3.innerHTML="BOOKS";
-        a3.href="#";
+        
 
-        a4.href="menu actoresRetratos.html";
+        
         a4.className="w3-bar-item w3-button w3-right-align";        
         a4.innerHTML="RETRATOS";
-        a4.href="#";
+        
         
         a5.id="modelos"; 
         a5.className="w3-bar-item w3-button w3-right-align";
         a5.innerHTML="BOOK";
-        a5.href="#";
+        
 
         a6.innerHTML="CELEBRITIES";
         a6.id="celebrities";
         a6.className= "w3-bar-item w3-button w3-right-align";
-        a6.href="#";
+        
 
         button2.className="w3-button w3-center";
         button2.id="proyectos";
@@ -230,26 +242,25 @@ function init() {
 
         a7.innerHTML="#RETANDOADARIO";
         a7.className= "w3-bar-item w3-button w3-right-align";
-        a7.href="#";
+        
 
         a8.innerHTML="ENTRE TÚ Y YO";        
         a8.className= "w3-bar-item w3-button w3-right-align";
-        a8.href="#";
+        
 
-        a9.innerHTML="EQUIPO";
-        a9.href="#";
+        a9.innerHTML="EQUIPO";        
         a9.className="w3-bar-item w3-button w3-center w3-padding-16";
         
 
-        a10.innerHTML="PRIDE";
-        a10.href="#";
+        a10.innerHTML="PRIDE";        
         a10.className="w3-bar-item w3-button w3-right-align";;
         
 
-        a11.innerHTML="CONTACTOS";
-        a11.href="#";
+        a11.innerHTML="CONTACTOS";        
         a11.className="w3-bar-item w3-button w3-center w3-padding-16";
-        
+
+        a12.className="w3-bar-item w3-button w3-right-align";        
+        a12.innerHTML="RODAJES";
     }
 
 
