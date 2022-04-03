@@ -8,21 +8,32 @@ html {height: 100%; width: auto;
   }
 
 img{
-  width: 45%;
+  width: 85%;
 }
 #dario{
-  width: 50%;
+  width: 95%;
 }
 .bloqueinicio{
-  margin: 120px;
- 
+  margin-top: 100px; 
+}
+.bloque{
+  margin-bottom: 50px;
 }
 .darioTexto{
-  font-size: 25px;
+  font-size: 20px;
 }
-@media screen and (min-width:730px){
+@media screen and (min-width:400px){
   .bloque{
     width: 50%;
     float: left;    
-  }  
+  }
+  .bloqueinicio{
+    margin-top: 100px; 
+  }
+  #dario{
+    width: 70%;
+  }
+  img{
+    width: 70%;
+  }
 }
