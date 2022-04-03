@@ -28,12 +28,15 @@ img{
     float: left;    
   }
   .bloqueinicio{
-    margin-top: 100px; 
+    margin-top: 120px; 
   }
   #dario{
     width: 70%;
   }
   img{
     width: 70%;
+  }
+  .texto{
+    margin: 0 10px 0 0;    
   }
 }
