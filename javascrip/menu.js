@@ -130,7 +130,7 @@ function init() {
                 a8.href = "menu EntreTuyYo.html";
                 a9.href = "menu equipo.html";
                 a10.href ="menu pride.html";
-                a11.href ="menu Sesiones.html"; 
+                a11.href ="menu sesiones.html"; 
                 a12.href ="menu rodaje.html";           
                 break;
         }
