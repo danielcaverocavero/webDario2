@@ -8,8 +8,6 @@ html {height: 100%; width: auto;}
   }
 
 .contenido{  
-  display: flex;
-  align-content: center;
   text-align: justify;  
   padding: 10px;  
   color:white;
