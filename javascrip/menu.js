@@ -12,7 +12,7 @@ function init() {
     var a8 = document.createElement("a"); // ENTRE TU Y YO
     var a9 = document.createElement("a"); // EQUIPO
     var a10 = document.createElement("a"); // PRIDE
-    var a11 = document.createElement("a"); // CONTACTOS
+    var a11 = document.createElement("a"); // SESIONES
     var a12 = document.createElement("a"); // RODAJES
     var div1 =document.createElement("div"); // BLOQUE 1 ACTORES
     var div11 =document.createElement("div"); // BLOQUE BOOKS Y RETRATOS
@@ -93,7 +93,7 @@ function init() {
             a10.href="#";
             break;                    
             
-        case "Dario | Contactos":            
+        case "Dario | Sesiones":            
             a11.className +=" w3-dark-gray";            
             a11.href="#";
             break;
@@ -116,7 +116,7 @@ function init() {
                 a8.href = "paginas/menu EntreTuyYo.html";
                 a9.href = "paginas/menu equipo.html";
                 a10.href ="paginas/menu pride.html";
-                a11.href ="paginas/menu contactos.html";
+                a11.href ="paginas/menu sesiones.html";
                 a12.href ="paginas/menu rodaje.html";
                 break;
         
@@ -130,7 +130,7 @@ function init() {
                 a8.href = "menu EntreTuyYo.html";
                 a9.href = "menu equipo.html";
                 a10.href ="menu pride.html";
-                a11.href ="menu contactos.html"; 
+                a11.href ="menu Sesiones.html"; 
                 a12.href ="menu rodaje.html";           
                 break;
         }
@@ -177,7 +177,7 @@ function init() {
 
         
         nav.appendChild(a9); // EQUIPO 
-        nav.appendChild(a11); // CONTACTOS 
+        nav.appendChild(a11); // SESIONES 
         
 
     }
@@ -256,7 +256,7 @@ function init() {
         a10.className="w3-bar-item w3-button w3-right-align";;
         
 
-        a11.innerHTML="CONTACTOS";        
+        a11.innerHTML="SESIONES";        
         a11.className="w3-bar-item w3-button w3-center w3-padding-16";
 
         a12.className="w3-bar-item w3-button w3-right-align";        
