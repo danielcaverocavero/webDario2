@@ -8,10 +8,11 @@ html {height: 100%; width: auto;}
   }
 
 .contenido{
-  text-align: center;  
-  padding: 10px;  
+  text-align: center;   
   color:white;
-  padding: 150px;
+  padding: 100px;
+  background-size: cover;
+  background-position:center;
   
   
 }
