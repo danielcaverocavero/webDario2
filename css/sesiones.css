@@ -8,22 +8,13 @@ html {height: 100%; width: auto;}
   }
 
 .contenido{
-  text-align: justify;  
+  text-align: center;  
   padding: 10px;  
   color:white;
+  padding: 150px;
+  
   
 }
-h1{
-  text-align: center;  
-}
-#botones{
- display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-h1{
-  text-align: center;
-  }
 
 
 
