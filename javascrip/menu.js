@@ -14,6 +14,7 @@ function init() {
     var a10 = document.createElement("a"); // PRIDE
     var a11 = document.createElement("a"); // SESIONES
     var a12 = document.createElement("a"); // RODAJES
+    var a13 = document.createElement("a"); // CONTACTO
     var div1 =document.createElement("div"); // BLOQUE 1 ACTORES
     var div11 =document.createElement("div"); // BLOQUE BOOKS Y RETRATOS
     var div2 =document.createElement("div"); // BLOQUE 2 PROYECTOS
@@ -97,6 +98,11 @@ function init() {
             a11.className +=" w3-dark-gray";            
             a11.href="#";
             break;
+
+        case "Dario | Contacto":            
+            a13.className +=" w3-dark-gray";            
+            a13.href="#";
+            break;
             
         default:
             break;
@@ -118,6 +124,7 @@ function init() {
                 a10.href ="paginas/menu pride.html";
                 a11.href ="paginas/menu sesiones.html";
                 a12.href ="paginas/menu rodaje.html";
+                a13.href ="#";
                 break;
         
             default:
@@ -132,6 +139,7 @@ function init() {
                 a10.href ="menu pride.html";
                 a11.href ="menu sesiones.html"; 
                 a12.href ="menu rodaje.html";           
+                a13.href ="#";
                 break;
         }
         
@@ -175,9 +183,9 @@ function init() {
         div21.appendChild(a8); // ENTRE TU Y YO
         
 
-        
-        nav.appendChild(a9); // EQUIPO 
-        nav.appendChild(a11); // SESIONES 
+        nav.appendChild(a11); // SESIONES
+        nav.appendChild(a9); // EQUIPO          
+        nav.appendChild(a13); // CONTACTO
         
 
     }
@@ -261,6 +269,9 @@ function init() {
 
         a12.className="w3-bar-item w3-button w3-right-align";        
         a12.innerHTML="RODAJES";
+
+        a13.className="w3-bar-item w3-button w3-center w3-padding-16";
+        a13.innerHTML="CONTACTO";
     }
 
 
