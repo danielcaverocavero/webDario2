@@ -8,11 +8,18 @@ html {height: 100%; width: auto;
 }
 
 img{
-  width: 70%;    
+  width: 70%;
+  margin-top: 40px;
+  
 }
 button{
-  border-radius: 0 0 10px 10px;  
+  width: 90%;
+  border-radius: 0 0 16px 16px;    
 }
 .bloqueinicio{
-  margin-top: 50px;    
+
+  margin-bottom: 20px;
+}
+.bloque{
+  margin-bottom: 52px;
 }
