@@ -27,9 +27,11 @@ function init() {
         if (x.className.indexOf("w3-show") == -1) { 
           x.className += " w3-show";
           dario.innerHTML="&uarr;";
+          dario.style.width="100%";
         } else {
           x.className = x.className.replace(" w3-show", "");
           dario.innerHTML="&darr;";
+          dario.style.width="";
         }
       }
       function myFunction3() {
@@ -38,9 +40,11 @@ function init() {
         if (x.className.indexOf("w3-show") == -1) { 
           x.className += " w3-show";
           dario.innerHTML="&uarr;";
+          dario.style.width="100%";
         } else {
           x.className = x.className.replace(" w3-show", "");
           dario.innerHTML="&darr;";
+          dario.style.width="";
         }
       }
       function myFunction4() {
@@ -49,9 +53,11 @@ function init() {
         if (x.className.indexOf("w3-show") == -1) { 
           x.className += " w3-show";
           dario.innerHTML="&uarr;";
+          dario.style.width="100%";
         } else {
           x.className = x.className.replace(" w3-show", "");
           dario.innerHTML="&darr;";
+          dario.style.width="";
         }
       }
       function myFunction5() {
@@ -60,9 +66,11 @@ function init() {
         if (x.className.indexOf("w3-show") == -1) { 
           x.className += " w3-show";
           dario.innerHTML="&uarr;";
+          dario.style.width="100%";
         } else {
           x.className = x.className.replace(" w3-show", "");
           dario.innerHTML="&darr;";
+          dario.style.width="";
         }
       }
 
