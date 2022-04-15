@@ -10,13 +10,14 @@ html {height: 100%; width: auto;
 button{
   border: none;
   width: 50%;
-  border-radius: 0 0 16px 16px;    
+  border-radius: 0 0 16px 16px;   
 }
 #darioBoton{
  width: 100%;
 }
 .bloque{ 
-   padding-top: 15px;    
+   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .flex{
   display: flex;
@@ -27,6 +28,7 @@ button{
   order: 1;
 }
 #b2{
+  margin-bottom: 10px;
   order: 2;
 }
 #b3{
@@ -57,8 +59,8 @@ button{
   button{
     width: 60%;
   }
-  #b4{
-    order: 6;
+  #b5{
+    order: 7;
   }
   
 }
@@ -77,8 +79,8 @@ button{
   button{
     width: 60%;
   }
-   #b4{
-    order: 6;
+   #b5{
+    order: 7;
   }
 }
 @media only screen and (min-width: 851px) and (max-width:875px) {
@@ -94,13 +96,14 @@ button{
   button{
     width: 80%;
   }
-   #b4{
-    order: 6;
+  #b5{
+    order: 7;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 876px) {
 .bloque{
+  
     display: flex; 
     align-items: center;
     width: 50%;
