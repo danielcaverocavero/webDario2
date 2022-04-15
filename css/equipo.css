@@ -18,6 +18,30 @@ button{
 .bloque{ 
    padding-top: 15px;    
 }
+.flex{
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+#b1{
+  order: 1;
+}
+#b2{
+  order: 2;
+}
+#b3{
+  order: 3;
+}
+#b4{
+  order: 4;
+}
+#b5{
+  order: 5;
+}
+#b6{
+  order: 6;
+}
+
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -32,7 +56,11 @@ button{
   }  
   button{
     width: 60%;
-  }  
+  }
+  #b4{
+    order: 6;
+  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -49,6 +77,9 @@ button{
   button{
     width: 60%;
   }
+   #b4{
+    order: 6;
+  }
 }
 @media only screen and (min-width: 851px) and (max-width:875px) {
   .bloque{
@@ -62,6 +93,9 @@ button{
   } 
   button{
     width: 80%;
+  }
+   #b4{
+    order: 6;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
