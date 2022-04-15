@@ -10,14 +10,13 @@ html {height: 100%; width: auto;
 button{
   border: none;
   width: 50%;
-  border-radius: 0 0 16px 16px;   
+  border-radius: 0 0 16px 16px;
 }
 #darioBoton{
- width: 100%;
+ width: 100%;  
 }
 .bloque{ 
-   padding-top: 50px;
-  padding-bottom: 50px;
+   padding-top: 50px; 
 }
 .flex{
   display: flex;
