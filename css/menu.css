@@ -2,8 +2,7 @@ header{
     height: 91px;
   }
 #mySidebar{    
-    background-color:black;
-    outline-color: none; 
+    background-color:black;    
     z-index:3;width:250px;font-weight:bold;display:none;right:0;
 }
 

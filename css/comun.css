@@ -1,3 +1,6 @@
+header{
+  height: 91px;
+}
 /* Next & previous buttons */
 #prev, #next {
     cursor: pointer;

@@ -1,10 +1,10 @@
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-half img{margin-bottom: -6px; cursor: pointer}
-.w3-half img:hover{opacity: 0.6; transition: 0.3s}
+
 .w3-third img{margin-bottom: -6px; cursor: pointer}
-.w3-third img:hover{opacity: 0.6; transition: 0.3s}
-.w3-quarter img{margin-bottom: -6px; cursor: pointer}
-.w3-quarter img:hover{opacity: 1; transition: 0.3s}
+
+.w3-quarter img{margin-bottom: -6px; }
+
 
 body, html {height: 100%; width: auto;}
 img {

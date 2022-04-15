@@ -9,8 +9,8 @@ html {height: 100%; width: auto;}
 .w3-quarter img:hover{opacity: 0.9; transition: 0.3s}
 
 .ajuste{
-  height: 10px;
-  background-color:transparent;
+  height: 5px;
+  background-color: transparent;
 }
 .container {
   position: relative;
@@ -59,6 +59,4 @@ html {height: 100%; width: auto;}
   width: 33.33%;
   margin: 0;
 }
-  @media screen and (max-width: 600px) and (orientation:landscape){
   
-}
