@@ -7,19 +7,94 @@ html {height: 100%; width: auto;
     z-index:3;width:250px;font-weight:bold;display:none;right:0;
 }
 
-img{
-  width: 70%;
-  margin-top: 40px;
-  
-}
 button{
-  width: 90%;
+  border: none;
+  width: 50%;
   border-radius: 0 0 16px 16px;    
 }
-.bloqueinicio{
-
-  margin-bottom: 20px;
+#darioBoton{
+ width: 100%;
 }
+.bloque{ 
+   padding-top: 15px;    
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bloque{    
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    height: auto;    
+  }
+  img{
+   width: 60%; 
+  }  
+  button{
+    width: 60%;
+  }  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width:850px) {
+  .bloque{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    align-items: center;
+  }
+   img{
+   width: 60%; 
+  }  
+  button{
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width:875px) {
+  .bloque{
+    width: 100%;
+    height: auto; 
+    display: flex; 
+    align-items: center;
+  }
+   img{
+   width: 80%; 
+  } 
+  button{
+    width: 80%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 876px) {
 .bloque{
-  margin-bottom: 52px;
+    display: flex; 
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    float: left;
+  }
+   img{
+   width: 40%; 
+  }
+  button{
+    width: 40%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .bloque{
+    display: flex; 
+    align-items: center;
+    height: 450px;  
+  }
+   img{
+   width: 40%; 
+  }  
+  button{
+    width: 40%;
+  }
 }
