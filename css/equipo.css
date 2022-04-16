@@ -22,6 +22,7 @@ button{
 }
 #b2{  
   order: 2;
+  padding-right: 40px;
 }
 #b3{
   order: 3;
@@ -35,7 +36,12 @@ button{
 #b6{
   order: 6;
 }
-
+.btInterior{
+  width: 100%;
+}
+.bloqueFinal{
+  height: 200px;
+}
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -52,10 +58,10 @@ button{
     width: 60%;
   }
   #b5{
-    order: 7;
-  }
-  #b3, #b4,#b5, #b6{
-    padding-top: 50px;
+    order: 7;    
+  }  
+  #b1, #b3, #b4, #b5, #b6{
+    padding-top: 60px;
   } 
 }
 
@@ -104,18 +110,35 @@ button{
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 876px) and (max-width:1199px) {
-.bloque{
-  
+.bloque{  
     display: flex; 
     align-items: center;
     width: 50%;
     height: 400px;    
   }
    img{
-   width: 60%; 
+   width: 40%; 
   }
   button{
     width: 40%;
+  }
+  #b1{
+  order: 1;
+  }
+  #b2{  
+    order: 2;
+  }
+  #b3{
+    order: 3;
+  }
+  #b4{
+    order: 5;
+  }
+  #b5{
+    order: 4;
+  }
+  #b6{
+    order: 6;
   }
 }
 
@@ -135,5 +158,24 @@ button{
   }  
   button{
     width: 40%;
+  }
+  #b1{
+  order: 1;
+  }
+  #b2{  
+    order: 2;
+    padding-right: 40px;
+  }
+  #b3{
+    order: 3;
+  }
+  #b4{
+    order: 5;
+  }
+  #b5{
+    order: 4;
+  }
+  #b6{
+    order: 6;
   }
 }
