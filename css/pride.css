@@ -10,7 +10,9 @@ img {
   height: auto;  
   width: 100%;
 }
-
+.texto{  
+  padding: 22px;
+}
 #mySidebar {
     z-index:3;width:250px;font-weight:bold;display:none;right:0;
 }
@@ -52,6 +54,12 @@ img {
   }
 }
 @media screen and (orientation: landscape)and (min-width: 1000px) and (max-width:3000px) {
+  #img01 {  
+    height: auto;
+    width: 45%;
+  }  
+}
+@media screen and (min-width: 1000px) and (max-width:3000px) {
   #img01 {  
     height: auto;
     width: 45%;

@@ -19,6 +19,11 @@ img {
 #mySidebar {
     z-index:3;width:250px;font-weight:bold;display:none;right:0;    
 }
+.texto{  
+  padding: 22px;
+}
+
+
 @media screen and (orientation: landscape) and (max-width: 600px) {
   #img01 {
     height: auto;
