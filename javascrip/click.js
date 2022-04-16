@@ -47,9 +47,11 @@ function init() {
       x.className += " w3-show";
       dario.innerHTML="👆";
       dario.style.width="100%";
+      dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
-      dario.innerHTML="👇";          
+      dario.innerHTML="👇"; 
+      dario.style.borderRadius="0px 0px 16px 16px";         
     }
   }
 
@@ -75,10 +77,12 @@ function init() {
       x.className += " w3-show";
       dario.innerHTML="👆";
       dario.style.width="100%";
+      dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
       dario.innerHTML="👇";
       dario.style.width="";
+      dario.style.borderRadius="0px 0px 16px 16px";
     }
   }
   function myFunction4() {
@@ -88,10 +92,12 @@ function init() {
       x.className += " w3-show";
       dario.innerHTML="👆";
       dario.style.width="100%";
+      dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
       dario.innerHTML="👇";
       dario.style.width="";
+      dario.style.borderRadius="0px 0px 16px 16px";
     }
   }
   function myFunction5() {
@@ -101,10 +107,12 @@ function init() {
       x.className += " w3-show";
       dario.innerHTML="👆";
       dario.style.width="100%";
+      dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
       dario.innerHTML="👇";
       dario.style.width="";
+      dario.style.borderRadius="0px 0px 16px 16px";
     }
   }
 
