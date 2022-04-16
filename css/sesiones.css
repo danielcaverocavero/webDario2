@@ -12,8 +12,19 @@ html {height: 100%; width: auto;}
   color:white;
   padding: 100px;
   background-size: cover;
-  background-position:center;
+  background-position:center; 
   
+}
+
+@media screen and (max-width:1199px){
+  .contenido{
+  text-align: left;   
+  color:white;
+  padding: 40px;
+  background-size: cover;
+  background-position:center; 
+  
+}
   
 }
 
