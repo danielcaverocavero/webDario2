@@ -23,6 +23,7 @@ button{
 #b2{  
   order: 2;
   padding-right: 40px;
+  padding-left: 40px;
 }
 #b3{
   order: 3;
