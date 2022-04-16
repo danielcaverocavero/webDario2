@@ -13,6 +13,7 @@ html {height: 100%; width: auto;}
   padding: 100px;
   background-size: cover;
   background-position:center; 
+  margin:5px;  
   
 }
 
@@ -20,7 +21,7 @@ html {height: 100%; width: auto;}
   .contenido{
   text-align: left;   
   color:white;
-  padding: 10px;
+  padding: 40px;
   background-size: cover;
   background-position:center; 
   
