@@ -45,7 +45,7 @@ function init() {
     var dario = document.getElementById("bt1");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👆";
+      dario.innerHTML="👇"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
@@ -60,7 +60,7 @@ function init() {
     var dario = document.getElementById("bt2");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👆";
+      dario.innerHTML="👇"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
@@ -75,7 +75,7 @@ function init() {
     var dario = document.getElementById("bt3");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👆";
+      dario.innerHTML="👇"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
@@ -90,7 +90,7 @@ function init() {
     var dario = document.getElementById("bt4");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👆";
+      dario.innerHTML="👇"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
@@ -105,7 +105,7 @@ function init() {
     var dario = document.getElementById("bt5");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👆";
+      dario.innerHTML="👇"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
