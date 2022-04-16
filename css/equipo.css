@@ -12,12 +12,6 @@ button{
   width: 50%;
   border-radius: 0 0 16px 16px;
 }
-#darioBoton{
- width: 100%;  
-}
-.bloque{ 
-   padding-top: 50px; 
-}
 .flex{
   display: flex;
   flex-wrap: wrap;  
@@ -26,8 +20,7 @@ button{
 #b1{
   order: 1;
 }
-#b2{
-  margin-bottom: 10px;
+#b2{  
   order: 2;
 }
 #b3{
@@ -42,7 +35,9 @@ button{
 #b6{
   order: 6;
 }
-
+#b2:hover{
+  
+}
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -50,7 +45,7 @@ button{
     display: flex; 
     align-items: center;
     width: 100%;
-    height: auto;    
+    height: auto; 
   }
   img{
    width: 60%; 
@@ -61,7 +56,9 @@ button{
   #b5{
     order: 7;
   }
-  
+  #b3, #b4,#b5, #b6{
+    padding-top: 50px;
+  } 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -70,7 +67,7 @@ button{
     width: 100%;
     height: auto;
     display: flex; 
-    align-items: center;
+    align-items: center;    
   }
    img{
    width: 60%; 
@@ -81,6 +78,10 @@ button{
    #b5{
     order: 7;
   }
+   #b3, #b4,#b5, #b6{
+  padding-top: 50px;
+}
+
 }
 @media only screen and (min-width: 851px) and (max-width:875px) {
   .bloque{
@@ -98,19 +99,22 @@ button{
   #b5{
     order: 7;
   }
+   #b3, #b4,#b5, #b6{
+  padding-top: 50px;
+}
+
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 876px) {
+@media only screen and (min-width: 876px) and (max-width:1199px) {
 .bloque{
   
     display: flex; 
     align-items: center;
     width: 50%;
-    height: 400px;
-    float: left;
+    height: 400px;    
   }
    img{
-   width: 40%; 
+   width: 60%; 
   }
   button{
     width: 40%;
@@ -126,6 +130,7 @@ button{
     display: flex; 
     align-items: center;
     height: 450px;  
+    width: 50%;
   }
    img{
    width: 40%; 
