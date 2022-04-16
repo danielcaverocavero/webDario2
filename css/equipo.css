@@ -35,9 +35,7 @@ button{
 #b6{
   order: 6;
 }
-#b2:hover{
-  
-}
+
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
