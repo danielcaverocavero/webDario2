@@ -124,7 +124,7 @@ function init() {
                 a10.href ="paginas/menu pride.html";
                 a11.href ="paginas/menu sesiones.html";
                 a12.href ="paginas/menu rodaje.html";
-                a13.href ="#";
+                a13.href ="paginas/menu contacto.html";
                 break;
         
             default:
@@ -139,7 +139,7 @@ function init() {
                 a10.href ="menu pride.html";
                 a11.href ="menu sesiones.html"; 
                 a12.href ="menu rodaje.html";           
-                a13.href ="#";
+                a13.href ="menu contacto.html";
                 break;
         }
         
