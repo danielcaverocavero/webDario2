@@ -1,12 +1,6 @@
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 html {height: 100%; width: auto;}
-.w3-half img{margin-bottom: -6px; cursor: pointer}
-
-.w3-third img{margin-bottom: -6px; cursor: pointer}
-
-.w3-quarter img{margin-bottom: -6px; cursor: pointer}
-
 
 .ajuste{
   height: 5px;
@@ -24,12 +18,10 @@ html {height: 100%; width: auto;}
   transform: scaleY(1);
   transform-origin:top;
   outline: none;
+  outline-color: transparent; 
+  outline-style: none;
 }
 
-:focus { 
-    outline-color: transparent; 
-    outline-style: none;
-}
 
 .container:hover .image { 
   transform: scaleY(0);
