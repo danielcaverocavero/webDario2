@@ -45,12 +45,12 @@ function init() {
     var dario = document.getElementById("bt1");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👇"; 
+      dario.innerHTML="&#8744;"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
-      dario.innerHTML="👇"; 
+      dario.innerHTML="&#8744;"; 
       dario.style.borderRadius="0px 0px 16px 16px";         
     }
   }
@@ -60,12 +60,12 @@ function init() {
     var dario = document.getElementById("bt2");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👇"; 
+      dario.innerHTML="&#8744;"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
-      dario.innerHTML="👇";
+      dario.innerHTML="&#8744;";
       dario.style.width="";
       dario.style.borderRadius="0px 0px 16px 16px";
     }
@@ -75,12 +75,12 @@ function init() {
     var dario = document.getElementById("bt3");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👇"; 
+      dario.innerHTML="&#8744;"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
-      dario.innerHTML="👇";
+      dario.innerHTML="&#8744;";
       dario.style.width="";
       dario.style.borderRadius="0px 0px 16px 16px";
     }
@@ -90,12 +90,12 @@ function init() {
     var dario = document.getElementById("bt4");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👇"; 
+      dario.innerHTML="&#8744;"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
-      dario.innerHTML="👇";
+      dario.innerHTML="&#8744;";
       dario.style.width="";
       dario.style.borderRadius="0px 0px 16px 16px";
     }
@@ -105,12 +105,12 @@ function init() {
     var dario = document.getElementById("bt5");
     if (x.className.indexOf("w3-show") == -1) { 
       x.className += " w3-show";
-      dario.innerHTML="👇"; 
+      dario.innerHTML="&#8744;"; 
       dario.style.width="100%";
       dario.style.borderRadius="0px 0px 0px 0px";
     } else {
       x.className = x.className.replace(" w3-show", "");
-      dario.innerHTML="👇";
+      dario.innerHTML="&#8744;";
       dario.style.width="";
       dario.style.borderRadius="0px 0px 16px 16px";
     }
