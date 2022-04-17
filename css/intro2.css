@@ -25,6 +25,10 @@ html {height: 100%; width: auto;}
   transform-origin:top;
   outline: none;
 }
+:focus { 
+    outline-color: transparent; 
+    outline-style: none;
+}
 
 .container:hover .image { 
   transform: scaleY(0);
