@@ -8,15 +8,11 @@ html {height: 100%; width: auto;}
   }
 
 .contenido{  
-  color:white;  
-  background-size: cover;
-  background-position:center;   
-  background-image: url(../fotos/contacto/3_WEB.jpg);
-  height: 750px;  
+  color:white;
+  padding-top:200px;
+ 
 }
-.redes{  
-  position: relative;
-  top: 20%;
+.redes{
   margin: 20px 20px;  
   border-radius: 16px;
   font-size: 15px;
@@ -24,35 +20,55 @@ html {height: 100%; width: auto;}
   text-align: left;
 }
 img{
-  width: 10%;
+  width: 5%;
   margin: 10px;
 }
 a{
   text-decoration: none;
 }
 #whatsapp{
-  background: #47c857;
+  
 }
 #instagram{
-  background: #624ac1;  
+  
 }
 #mail{
-  background: black;  
+  
 }
-@media screen and (max-width:264px)
+
+@media screen and (max-width:260px)
+  {
+  .redes{
+    font-size: 8px;
+  }
+}
+@media screen and (min-width:261px) and (max-width:300px)
   {
   .redes{
     font-size: 10px;
   }
 }
-@media screen and (min-width:265px) and (max-width:350px)
+@media screen and (min-width:301px) and (max-width:350px)
   {
   .redes{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
-@media screen and (min-width:370px){
+@media screen and (min-width:450px)and (max-width:799px){
   .redes{
-    font-size: 20px;
+    font-size: 22px;
+    text-align: left;
+  }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+  .redes{
+    font-size: 36px;
+    text-align: left;
+  }
+}
+@media screen and (min-width:851px) {
+  .redes{
+    font-size: 36px;
+    text-align: left;
   }
 }
