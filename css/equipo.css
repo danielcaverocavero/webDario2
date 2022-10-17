@@ -34,13 +34,13 @@ button{
   order: 7;
 }
 #b5{ /* AZUL CLARO*/ 
-  order: 8;
+  order: 6;
 }
 #b6{ /* ROJO */ 
   order: 3;
 }
 #b7{ /* LILA */ 
-  order: 6;
+  order: 8;
 }
 #b8{ /* NARANJA */ 
   order: 4;
@@ -58,9 +58,7 @@ button{
   button{
     width: 60%;
   }
-  #b5{
-    order: 7;    
-  }  
+    
   #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
     padding-top: 60px;
   } 
@@ -75,9 +73,7 @@ button{
   button{
     width: 60%;
   }
-   #b5{
-    order: 7;
-  }
+   
   #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
     padding-top: 60px;
   } 
@@ -90,10 +86,7 @@ button{
   } 
   button{
     width: 80%;
-  }
-  #b5{
-    order: 7;
-  }
+  }  
    #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
     padding-top: 60px;
   } 
