@@ -8,37 +8,42 @@ html {height: 100%; width: auto;
 }
 
 button{
-  border: none;
-  width: 50%;
+  border: none; 
   border-radius: 0 0 16px 16px;
+}
+.btInterior{
+  width: 100%;
 }
 .flex{
   display: flex;
   flex-wrap: wrap;  
 }
 
-#b1{
-  order: 1;
+#b1{/* ROSA */ 
+  order: 1; 
 }
-#b2{  
+#b2{ /* TEXTO */ 
   order: 2;
   padding-right: 40px;
   padding-left: 40px;
 }
-#b3{
-  order: 3;
-}
-#b4{
-  order: 4;
-}
-#b5{
+#b3{ /* AMARIILO */ 
   order: 5;
 }
-#b6{
+#b4{ /* AZUL OSCURO */ 
+  order: 7;
+}
+#b5{ /* AZUL CLARO*/ 
+  order: 8;
+}
+#b6{ /* ROJO */ 
+  order: 3;
+}
+#b7{ /* LILA */ 
   order: 6;
 }
-.btInterior{
-  width: 100%;
+#b8{ /* NARANJA */ 
+  order: 4;
 }
 .bloqueFinal{
   height: 200px;
@@ -46,12 +51,7 @@ button{
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .bloque{    
-    display: flex; 
-    align-items: center;
-    width: 100%;
-    height: auto; 
-  }
+  
   img{
    width: 60%; 
   }  
@@ -61,19 +61,14 @@ button{
   #b5{
     order: 7;    
   }  
-  #b1, #b3, #b4, #b5, #b6{
+  #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
     padding-top: 60px;
   } 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width:850px) {
-  .bloque{
-    width: 100%;
-    height: auto;
-    display: flex; 
-    align-items: center;    
-  }
+  
    img{
    width: 60%; 
   }  
@@ -83,18 +78,13 @@ button{
    #b5{
     order: 7;
   }
-   #b3, #b4,#b5, #b6{
-  padding-top: 50px;
-}
+  #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
+    padding-top: 60px;
+  } 
 
 }
 @media only screen and (min-width: 851px) and (max-width:875px) {
-  .bloque{
-    width: 100%;
-    height: auto; 
-    display: flex; 
-    align-items: center;
-  }
+  
    img{
    width: 80%; 
   } 
@@ -104,24 +94,24 @@ button{
   #b5{
     order: 7;
   }
-   #b3, #b4,#b5, #b6{
-  padding-top: 50px;
-}
+   #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
+    padding-top: 60px;
+  } 
 
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 876px) and (max-width:1199px) {
-.bloque{  
+  .bloque{  
     display: flex; 
     align-items: center;
     width: 50%;
-    height: 400px;    
+    height: 450px;    
   }
-   img{
-   width: 40%; 
+  img{
+   width: 50%; 
   }
   button{
-    width: 40%;
+    width: 50%;
   }
   #b1{
   order: 1;
@@ -130,17 +120,28 @@ button{
     order: 2;
   }
   #b3{
-    order: 3;
+    order: 7;
   }
   #b4{
-    order: 5;
-  }
-  #b5{
-    order: 4;
-  }
-  #b6{
     order: 6;
   }
+  #b5{
+    order: 8;
+  }
+  #b6{
+    order: 3;
+  }
+  #b7{ /* LILA */ 
+    order:4;
+  }
+  #b8{ /* NARANJA */ 
+    order: 5;
+  }
+  
+  #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8 {
+    padding-top: 60px;     
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -151,14 +152,14 @@ button{
   .bloque{
     display: flex; 
     align-items: center;
-    height: 450px;  
+    height: 650px;  
     width: 50%;
   }
    img{
-   width: 40%; 
+   width: 60%; 
   }  
   button{
-    width: 40%;
+    width: 60%;
   }
   #b1{
   order: 1;
@@ -168,15 +169,21 @@ button{
     padding-right: 40px;
   }
   #b3{
-    order: 3;
+    order: 7;
   }
   #b4{
-    order: 5;
+    order: 6;
   }
   #b5{
-    order: 4;
+    order: 8;
   }
   #b6{
-    order: 6;
+    order: 3;
+  }
+  #b7{ /* LILA */ 
+    order:4;
+  }
+  #b8{ /* NARANJA */ 
+    order: 5;
   }
 }
