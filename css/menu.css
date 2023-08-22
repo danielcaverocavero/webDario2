@@ -23,3 +23,15 @@ div > a {
     background-color: black;
     color: white;
 }
+#logoImg{
+    width: 30%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #logoImg{
+        width: 50%;
+    }
+    
+    
+}
