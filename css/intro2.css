@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 html {height: 100%; width: auto;}
+
+
 #mySidebar{    
   background-color:black;    
   z-index:3;width:250px;font-weight:bold;display:none;right:0;
@@ -10,23 +16,18 @@ html {height: 100%; width: auto;}
   height: 5px;
   background-color: transparent;
 }
+/*** bloque de actores y modelos overlay slide ***/
 .container {
   position: relative;
   width: 100%;
 }
-.image {  
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: transform .3s ease; 
-  transform: scaleY(1);
-  transform-origin:top;  
-}
+/* para mi que esto sobra y es innecesario */
 .container:hover .image { 
   transform: scaleY(0);
   transform-origin:top;
   width: 100%;  
 }
+/* fin esto sobra y es innecesario */
 .overlay {
   position: absolute;
   bottom: 0;
@@ -43,6 +44,43 @@ html {height: 100%; width: auto;}
   transform: translateY(0%);
   width: 100%;  
 }
+/*** fin bloque de actores y modelos overlay slide ***/
+
+/*bloque de proyectos */
+.containernew {
+  position: relative;
+  width: 100%;
+}
+.overlaynew {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .3s ease;
+}
+.containernew:hover .overlaynew {
+  bottom: 0;
+  height: 100%;
+}
+/**** fin bloque de proyectos */
+
+
+
+.image {  
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform .3s ease; 
+  transform: scaleY(1);
+  transform-origin:top;  
+}
+
+:after container{
+  clear: both;  
+}
 .actores{
   margin: 0px;
   width: 33.33%;
@@ -56,4 +94,241 @@ html {height: 100%; width: auto;}
   width: 33.33%;
   margin: 0;
 }
+::after main1{  
+ clear: both;
+}
+.main1{
+  display: flex;
+  flex-direction: column;   
+}
+.main1Izquierda img{
+  width: 100%; 
+}
+
+
+/**************************************/
+/* bloque 1  */
+.main1{  
+  font-family: 'verdana', sans-serif;  
+}
+.main1Derecha{  
+  background-color: #fe58cc;
+  color: white;
+  padding: 30px;  
+  overflow: auto;  
+}
+.main1DerechaText1{
+  font-weight: bold;
+  padding-bottom: 15px;    
+}
+.main1DerechaText2{
+  padding-bottom: 15px;
+  font-size: 26px;
+}
+.main1DerechaText3{
+  font-size: 26px;
+}
+.botonesmain{
+  display: flex;
+}
+.botonderecha{  
+  color:#fe58cc;
+  background-color:white;
+  padding: 10px;
+  font-weight: bold;
+}
+.botonizquierda{  
+  color:#fe58cc;
+  margin-right: 100px;
+  background-color:white;
+  padding: 10px;  
+  font-weight: bold;
+}
+.botonizquierda a{  
+  text-decoration: none;
+}
+.botonderecha a{  
+  text-decoration: none;
+}
+/*  fin bloque 1  */
+/**************************************/
+/* bloque 2*/
+
+.bloque2{
+  font-family: 'verdana';
+  font-size: 18px;  
+  text-align: center;
+  padding: 30px;  
+}
+.dcStudioColorTextoRojo{
+  color: #d41b19ed;
+  font-weight: bold;
+}
+.bloque2Texto1{
+  padding: 30px 0px ;
+  font-size: 44px;
+  font-weight:600;
+}
+/* FIN BLOQUE 2  */
+
+/**************************************/
+/* bloque 3*/
+.bloque3{
+  font-family: 'verdana';
+  font-size: 30px;  
+  text-align: center;
+}
+.bloque3Texto1{
+  padding: 30px 0px;
+}
+.bloque3sub1{  
+  background-color: #f5cd37;  
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+.bloque3sub2{
+  display: flex;  
+  justify-content: center; 
+  font-size:20px;
+  font-weight: 300;
+}
+.bloque3sub31{  
+  padding: 10px 0px;
+  font-weight: bold; 
+  font-size: 26px;
+}
+.bloque3sub32{ 
+  font-size: 18px;
+  padding-bottom:10px;
+  font-weight: 300;
+}
+.bloque3Texto2{
+  padding: 30px 0px;
+  color: white;  
+  margin: 0px 30px;  
+}
+.dcStudioColorTextoNaranja{
+  color:#d7550a;
+}
+.dcStudioColorTextoAzul{
+  color: #007ee4;
+}
+.video{  
+  height: 750px;
+  margin: 10px;
+}
+.botonBloque3sub2{
+  margin: 0px 20px; 
+  padding: 10px;
+  background: white;
+  color:  #f5cd37;
+  font-weight: bold;  
+}
+/* FIN bloque 3*/
+
+/* BLOQUE 4 - INSTAGRAM */
+.bloque4{
+  text-align: center;
+  font-family: 'verdana';
+  font-weight: bold;
+  padding: 20px 0px;
+}
+.dcStudioColorTextoMagenta{
+  color: #a76de5;
+}
+.parrillaFotos{
+  border: blue 10px solid;
+  margin: 30px 0px;  
+  padding: 15px 0px;
+  justify-content: center;
+  flex-flow: row wrap;  
+}
+.bloque4Text1{
+  font-weight: 900;
+  font-size:26px;
+}
+/* FIN BLOQUE 4 - INSTAGRAM */
+
+/**************************************/
+@media only screen and (min-width: 725px) {
+  .main1{
+    
+    flex-direction: row;
+  }
+  .main1Izquierda{
+    width: 50%;
+  }
+  .main1Izquierda img{
+    width: 100%; 
+  }
+  .main1Derecha{   
+    width: 50%;
+    background-color: #fe58cc;
+    color: white;
+    padding: 30px;  
+    overflow: auto;       
+  }
+  .botonesmain{
+    display: flex;
+  }
+  .botonderecha{  
+    color:#fe58cc;
+    background-color:white;
+    padding: 10px;
+  }
+  .botonizquierda{  
+    color:#fe58cc;
+    margin-right: 100px;
+    background-color:white;
+    padding: 10px;  
+  }
+  .botonizquierda a{  
+    text-decoration: none;
+  }
+  .botonderecha a{  
+    text-decoration: none;
+  } 
+}
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+   .main1Derecha {
+     font-size: 22px;
+   }
+   .botonderecha a{
+     font-size: 22px;
+   }
+   .botonizquierda a{
+     font-size: 22px;
+   }
+   
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+   .main1Derecha {
+     font-size: 32px;
+   }
+   .botonderecha a{
+     font-size: 32px;
+   }
+   .botonizquierda a{
+     font-size: 32px;
+   }  
+
+ } 
   
