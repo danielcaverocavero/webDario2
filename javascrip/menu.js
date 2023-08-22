@@ -132,7 +132,7 @@ function init() {
                 a11.href ="paginas/menu sesiones.html";
                 a12.href ="paginas/menu rodaje.html";
                 a13.href ="paginas/menu contacto.html";
-                logoInicio.src="fotos/logoInicio/Logo alargado 3 sin studio negro.png";
+                logoInicio.src="fotos/logoInicio/LogoAlargado.png";
                 break;
         
             default:
@@ -148,7 +148,7 @@ function init() {
                 a11.href ="menu sesiones.html"; 
                 a12.href ="menu rodaje.html";           
                 a13.href ="menu contacto.html";
-                logoInicio.src="../fotos/logoInicio/Logo alargado 3 sin studio negro.png";
+                logoInicio.src="../fotos/logoInicio/LogoAlargado.png";
                 break;
         }
     
