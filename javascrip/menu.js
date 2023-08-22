@@ -25,6 +25,13 @@ function init() {
     var button2 = document.createElement("button"); // BOTON BLOQUE 2 PROYECTOS
     var button3 = document.createElement("button"); // BOTON BLOQUE 3 MODELOS
     var nav;
+    var logoInicio = document.createElement("img"); // imagen logo  
+    logoInicio.id ="logoImg";
+    var header =document.getElementsByTagName("header");
+    header[0].id="logoHeader";
+    var logoHeader = document.getElementById("logoHeader");  
+    //logoInicio.style.width="30%";
+    logoInicio.style.marginLeft="30px"
     
     // INICIA EL MENU Y SUS ELEMENTOS
     crearMenu();
@@ -125,6 +132,7 @@ function init() {
                 a11.href ="paginas/menu sesiones.html";
                 a12.href ="paginas/menu rodaje.html";
                 a13.href ="paginas/menu contacto.html";
+                logoInicio.src="fotos/logoInicio/Logo alargado 3 sin studio negro.png";
                 break;
         
             default:
@@ -140,10 +148,11 @@ function init() {
                 a11.href ="menu sesiones.html"; 
                 a12.href ="menu rodaje.html";           
                 a13.href ="menu contacto.html";
+                logoInicio.src="../fotos/logoInicio/Logo alargado 3 sin studio negro.png";
                 break;
         }
-        
-        
+    
+    
     }
 
     //CREACION DEL NAV DEL MENU
@@ -156,6 +165,7 @@ function init() {
 
     // CREACION DE LOS ELEMENTOS MENU EN EL NAV
     function crearMenu() {
+        logoHeader.appendChild(logoInicio);
         crearNav(); 
 
         nav.appendChild(a1); // CERRAR
@@ -212,27 +222,21 @@ function init() {
 
         div11.className="w3-dropdown-content w3-bar-block w3-card w3-animate-left";
         div11.id="demoDropRetratos"; // ver javascript.js y intro.js
-
         
         a3.className="w3-bar-item w3-button w3-right-align";        
         a3.innerHTML="BOOKS";
         
-
-        
         a4.className="w3-bar-item w3-button w3-right-align";        
-        a4.innerHTML="RETRATOS";
-        
+        a4.innerHTML="RETRATOS";        
         
         a5.id="modelos"; 
         a5.className="w3-bar-item w3-button w3-right-align";
-        a5.innerHTML="BOOK";
-        
+        a5.innerHTML="BOOK";        
 
         a6.innerHTML="CELEBRITIES";
         a6.id="celebrities";
         a6.className= "w3-bar-item w3-button w3-right-align";
         
-
         button2.className="w3-button w3-center";
         button2.id="proyectos";
         button2.innerHTML="PROYECTOS";
@@ -247,22 +251,17 @@ function init() {
         div31.id ="demoDrop1"; // ver javascript.js y intro.js
         div31.className="w3-dropdown-content w3-bar-block w3-card w3-animate-left";
 
-
         a7.innerHTML="#RETANDOADARIO";
         a7.className= "w3-bar-item w3-button w3-right-align";
-        
 
         a8.innerHTML="ENTRE TÚ Y YO";        
         a8.className= "w3-bar-item w3-button w3-right-align";
-        
 
         a9.innerHTML="EQUIPO";        
         a9.className="w3-bar-item w3-button w3-center w3-padding-16";
-        
 
         a10.innerHTML="PRIDE";        
         a10.className="w3-bar-item w3-button w3-right-align";;
-        
 
         a11.innerHTML="SESIONES";        
         a11.className="w3-bar-item w3-button w3-center w3-padding-16";
@@ -272,6 +271,8 @@ function init() {
 
         a13.className="w3-bar-item w3-button w3-center w3-padding-16";
         a13.innerHTML="CONTACTO";
+
+        
     }
 
 
