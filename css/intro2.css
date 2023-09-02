@@ -79,10 +79,6 @@ a{
   transform: scaleY(1);
   transform-origin:top;  
 }
-
-:after container{
-  clear: both;  
-}
 .actores{
   margin: 0px;
   width: 50%;
@@ -91,9 +87,6 @@ a{
 .proyectos{
   width: 33.33%;
   margin: 0;
-}
-::after main1{  
- clear: both;
 }
 .main1{
   display: flex;
