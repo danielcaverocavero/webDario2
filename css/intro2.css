@@ -1,8 +1,25 @@
 * {
   box-sizing: border-box;
 }
-
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+@font-face {
+  font-family: darioFuenteRegular;
+  src: url(RALEWAY-REGULAR.TTF);
+}
+@font-face {
+  font-family: darioFuenteBlack;
+  src: url(RALEWAY-BLACK.TTF);
+}
+@font-face {
+  font-family: darioFuenteBold;
+  src: url(RALEWAY-BOLD.TTF);
+}
+@font-face {
+  font-family: darioFuenteBoldItalic;
+  src: url(RALEWAY-BOLDITALIC.TTF);
+}
+body,h1,h2,h3,h4,h5 {
+  font-family: darioFuenteBlack;  
+}
 
 html {height: 100%; width: auto;}
 a{
@@ -100,7 +117,7 @@ a{
 /**************************************/
 /* bloque 1  */
 .main1{  
-  font-family: 'verdana', sans-serif;  
+  
 }
 .main1Derecha{  
   background-color: #fd58be;
@@ -146,7 +163,7 @@ a{
 /* bloque 2*/
 
 .bloque2{
-  font-family: 'verdana';
+  font-family: darioFuenteBold;
   font-size: 18px;  
   text-align: center;
   padding: 30px;  
@@ -165,7 +182,7 @@ a{
 /**************************************/
 /* bloque 3*/
 .bloque3{
-  font-family: 'verdana';
+  
   font-size: 30px;  
   text-align: center;
 }
@@ -220,7 +237,7 @@ a{
 /* BLOQUE 4 - INSTAGRAM */
 .bloque4{
   text-align: center;
-  font-family: 'verdana';
+  
   font-weight: bold;
   padding: 25px;
 }
@@ -335,7 +352,7 @@ a{
    }
    .botonizquierda a{
      font-size: 32px;
-   }  
+   }
+ }
 
- } 
-  
+ 
